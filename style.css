@@ -1,4 +1,87 @@
-body {background-color:tan;}
-h1{color:green;}
+/* This controls the style of the body element */
+body {
+    background-color: black;
+    font-family: arial;
+    font-size: 100%;
+    color: white
+}
 
+/* This controls the style of the h1 element(s) */
+h1 {
+    color: grey;
+    font-family: verdana;
+    white-space: nowrap;
+}
 
+/* This controls the style of the label element(s) */
+label {
+    float: left;
+    width: 125px;
+}
+
+/*
+// This controls the style of the footer element
+// - Used to properly position the footer
+*/
+footer {
+    padding-top: 10px;
+}
+
+/* This controls the style of the maindiv class */
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    align: center;
+    margin: auto;
+}
+
+/*
+// This controls the style of the calculations class
+// - Used to properly position the calculation results
+*/
+.calculations {
+    margin-left: 83px;
+}
+
+/*
+// This controls the style of the formrow class
+// - Used to properly space the form rows results
+*/
+.formrow {
+    height: 30px;
+}
+
+/*
+// This controls the style of the resultcopy class
+// - Used to hide the calculation results until after
+//   the "Compute Interest" button is pushed.
+// - Used to properly space and position the
+//   calcualtion results.
+*/
+.resultcopy {
+    display: none;
+    padding: 7px;
+    margin-left: -7px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+/* This controls the style of the inputcopy class
+// - Used to highlight the user's input and results of 
+//   the calculations in the calculation results copy.
+*/
+.inputcopy {
+    background-color: yellow;
+}
+
+/*
+// This controls the style of the copyright class
+// - Used to properly size and position the copyright symbol.
+*/
+.copyright {
+    font-size: 1.2em;
+    vertical-align: -0.1em;
+}
